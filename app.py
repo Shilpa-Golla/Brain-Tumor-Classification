@@ -315,7 +315,7 @@ with st.sidebar:
 
     model_path = st.text_input(
         "Model path (.pth)",
-        value="saved_models/EfficientNet_v2_Phase1_best.pth",
+        value="Saved Models/EfficientNet_v2_Phase1_best.pth",
         help="Full path to your saved EfficientNet weights"
     )
 
