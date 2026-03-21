@@ -315,7 +315,7 @@ with st.sidebar:
 
     model_path = st.text_input(
         "Model path (.pth)",
-        value=r"C:\Users\golla\Desktop\Brain Tumor Classification\saved_models\EfficientNet_v2_Phase1_best.pth",
+        value="saved_models/EfficientNet_v2_Phase1_best.pth",
         help="Full path to your saved EfficientNet weights"
     )
 
